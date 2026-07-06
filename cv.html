@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olivia Croteau — CV</title>
+<meta name="description" content="Curriculum vitae of Olivia Croteau.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">Olivia Croteau</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html" class="active">CV</a>
+    </nav>
+    <div class="contact-cluster">
+      <a href="mailto:oliviacroteau667@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/oliviacroteau667" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.5 8.75h4V23h-4V8.75zM8.5 8.75h3.83v1.95h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.13V23h-4v-6.5c0-1.55-.03-3.55-2.16-3.55-2.16 0-2.5 1.69-2.5 3.44V23h-4V8.75z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero container" style="padding-bottom:40px;">
+    <div class="cv-hero-row">
+      <div>
+        <span class="label">04 — CV</span>
+        <h1>Curriculum vitae</h1>
+        <p class="lede">The full record. Updated July 2026</p>
+      </div>
+      <a href="assets/croteauCVJuly26.pdf" class="btn btn-primary" target="_blank" rel="noopener">Open PDF</a>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:0;">
+    <div class="container">
+
+      <div class="cv-section">
+        <div class="pdf-embed-shell">
+          <iframe class="pdf-embed" src="assets/croteauCVJuly26.pdf" title="Curriculum vitae PDF"></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-signature-block">
+      <img src="assets/signature.svg" alt="Olivia Croteau signature" class="footer-signature">
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:oliviacroteau667@gmail.com">oliviacroteau667@gmail.com</a>
+      <a href="https://linkedin.com/in/oliviacroteau667" target="_blank" rel="noopener">linkedin.com/in/oliviacroteau667</a>
+    </div>
+  </div>
+  <div class="container footer-copy">© <span id="year"></span> Olivia Croteau.</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="main.js"></script>
+</body>
+</html>

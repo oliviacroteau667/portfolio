@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olivia Croteau — Home</title>
+<meta name="description" content="Portfolio of Olivia Croteau — projects, research, education, and CV.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">Olivia Croteau</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+    </nav>
+    <div class="contact-cluster">
+      <a href="mailto:oliviacroteau667@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/oliviacroteau667" aria-label="LinkedIn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.5 8.75h4V23h-4V8.75zM8.5 8.75h3.83v1.95h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.13V23h-4v-6.5c0-1.55-.03-3.55-2.16-3.55-2.16 0-2.5 1.69-2.5 3.44V23h-4V8.75z"/></svg>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero container">
+    <div class="hero-layout">
+      <img src="assets/gradPortrait.JPG" alt="Olivia Croteau portrait" class="hero-portrait">
+      <div class="hero-copy">
+        <span class="label">Portfolio — Updated July 2026</span>
+        <h1>Olivia Croteau<br>I'm a <span class="typed-word" aria-live="polite" aria-atomic="true"></span></h1>
+        <p class="lede">
+          I'm a recent graduate looking for my next project in humanitarian aid. I have an interdisciplinary background in everything from anaytics to human rights philosophy, and my specialty is in bridging that very gap. <br>
+          The humanitarian sector is hungry for actionable data every day; it needs people who can design software and AI tools that humanitarians will actually trust. It needs technologists who hold community at the center of their work. <br>
+          I believe in data-driven descision making, open source information, and the power of rhetoric to inspire change. <br>
+          I want to improve global access to quality education, healthcare, and safe living conditions. If our missions align, then these buttons are for you.
+        </p>
+        <div class="hero-actions">
+          <a href="cv.html" class="btn btn-secondary">View CV</a>
+          <a href="https://linkedin.com/in/oliviacroteau667" class="btn btn-primary" target="_blank" rel="noopener">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="block">
+    <div class="container">
+      <div class="block-head">
+        <span class="label">Featured</span>
+        <h2>Representing my Class</h2>
+      </div>
+      <div class="video-section">
+        <p class="video-intro">
+          I'm honored to have been selected by RIT's faculty of the College of Liberal Arts to speak on behalf of the undergraduate class at the 2026 commencement ceremony. This was a highly competitive award including multiple interview rounds and a candidate pool of several hundred. Thank you to RIT for granting me the platform to speak on the vitality of compassion and humanitarian assistance.
+        </p>
+        <div class="video-embed-shell">
+          <video class="video-player" controls playsinline preload="metadata" poster="assets/speechStill.png">
+            <source src="assets/trimmedGradSpeech.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="block">
+    <div class="container">
+      <div class="block-head">
+        <span class="label">News</span>
+        <h2>Latest Updates</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="project-card">
+          <div class="media"><img src="assets/delegates.png" alt="Olivia Croteau portrait" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+          <div class="body">
+            <h3>College of Liberal Arts names Romiere, Horace and Olivia Croteau as 2025–2026 commencement</h3>
+            <div class="links"><a href="https://www.rit.edu/news/college-liberal-arts-names-romiere-horace-and-olivia-croteau-as-2025-2026-commencement" target="_blank" rel="noopener">Read announcement</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="media"><img src="https://cdn.rit.edu/images/news/2025-03/WEB_CoOpStudentsUnitedNations_5725-2_3.jpg" alt="RIT students using AI for refugee response" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+          <div class="body">
+            <h3>Students use AI to aid United Nations in Ukrainian refugee response</h3>
+            <div class="links"><a href="https://www.rit.edu/news/students-use-ai-aid-united-nations-ukrainian-refugee-response" target="_blank" rel="noopener">Read announcement</a></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-signature-block">
+      <img src="assets/signature.svg" alt="Olivia Croteau signature" class="footer-signature">
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:oliviacroteau667@gmail.com">oliviacroteau667@gmail.com</a>
+      <a href="https://linkedin.com/in/oliviacroteau667" target="_blank" rel="noopener">linkedin.com/in/oliviacroteau667</a>
+    </div>
+  </div>
+  <div class="container footer-copy">© <span id="year"></span> Olivia Croteau.</div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="main.js"></script>
+</body>
+</html>
