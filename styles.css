@@ -262,6 +262,8 @@ a:focus-visible, button:focus-visible{
 }
 
 .video-embed-shell{
+  width: 100%;
+  max-width: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-alt);
@@ -274,14 +276,12 @@ a:focus-visible, button:focus-visible{
   display: block;
   width: 100%;
   max-width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  min-height: 320px;
+  height: min(56vw, 540px);
   border: 0;
   border-radius: calc(var(--radius) - 4px);
   background: #000;
 }
-
 /* ============================================
    BUTTONS
    ============================================ */
