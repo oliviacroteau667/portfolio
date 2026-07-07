@@ -262,22 +262,21 @@ a:focus-visible, button:focus-visible{
 }
 
 .video-embed-shell{
-  position: relative;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-alt);
-  padding: 0;
+  padding: 18px;
   overflow: hidden;
-  aspect-ratio: 16 / 9;
   box-shadow: inset 0 0 0 1px rgba(0,0,0,0.02);
 }
 
 .video-player{
   display: block;
-  position: absolute;
-  inset: 0;
   width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   border: 0;
   border-radius: calc(var(--radius) - 4px);
   background: #000;
