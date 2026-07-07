@@ -262,25 +262,25 @@ a:focus-visible, button:focus-visible{
 }
 
 .video-embed-shell{
+  position: relative;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-alt);
-  padding: 18px;
+  padding: 0;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.02);
 }
 
 .video-player{
   display: block;
+  position: absolute;
+  inset: 0;
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  height: 100%;
+  border: 0;
   border-radius: calc(var(--radius) - 4px);
   background: #000;
-}
-
-@media (max-width: 780px) {
-  .video-player{
-    min-height: 240px;
-  }
 }
 
 /* ============================================
